@@ -1,22 +1,23 @@
-Revenue Prediction Using Machine Learning
-📌 Project Overview
+##Revenue Prediction Using Machine Learning
+
+ ###1. Project Overview
 
 This project aims to predict business revenue using historical and operational data.
 The model helps stakeholders estimate future revenue and support data-driven business decisions such as budgeting, forecasting, and strategic planning.
 
-🎯 Business Problem
+###2. Business Problem
 
 Accurate revenue forecasting is critical for:
 
-Financial planning
+a. Financial planning
 
-Resource allocation
+b. Resource allocation
 
-Risk mitigation
+c. Risk mitigation
 
 Traditional forecasting methods often fail to capture nonlinear relationships between multiple business factors. This project leverages machine learning regression models to improve prediction accuracy.
 
-🧠 Machine Learning Approach
+###3.Machine Learning Approach
 
 Problem Type: Supervised Regression
 
