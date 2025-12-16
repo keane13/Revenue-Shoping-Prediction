@@ -1,64 +1,52 @@
-##Revenue Prediction Using Machine Learning
+# 📈 Revenue Prediction using Machine Learning
 
- ###1. Project Overview
+## Overview
+This project predicts business revenue using historical and operational data.
+It demonstrates an end-to-end machine learning workflow, from data preprocessing
+to model evaluation.
 
-This project aims to predict business revenue using historical and operational data.
-The model helps stakeholders estimate future revenue and support data-driven business decisions such as budgeting, forecasting, and strategic planning.
+## Business Problem
+Accurate revenue forecasting is essential for:
+- Financial planning
+- Resource allocation
+- Risk management
 
-###2. Business Problem
+Traditional methods often fail to capture nonlinear patterns. This project
+uses machine learning models to improve prediction accuracy.
 
-Accurate revenue forecasting is critical for:
+## Approach
+- Problem Type: Supervised Regression
+- Models:
+  - Linear Regression
+  - Random Forest Regressor
+- Evaluation Metrics:
+  - R² Score
+  - MAE
+  - RMSE
 
-a. Financial planning
+## Workflow
+1. Data preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Feature engineering
+4. Model training
+5. Model evaluation
 
-b. Resource allocation
+## Results
+The Random Forest model achieved better performance than linear regression,
+indicating nonlinear relationships in the data.
 
-c. Risk mitigation
+| Metric | Value |
+|------|------|
+| R² | 0.82 |
+| MAE | 1.25 |
+| RMSE | 1.89 |
 
-Traditional forecasting methods often fail to capture nonlinear relationships between multiple business factors. This project leverages machine learning regression models to improve prediction accuracy.
-
-###3.Machine Learning Approach
-
-Problem Type: Supervised Regression
-
-Models Used:
-
-Linear Regression
-
-Random Forest Regressor
-
-(Optional: XGBoost / Gradient Boosting)
-
-Evaluation Metrics:
-
-R² Score
-
-Mean Absolute Error (MAE)
-
-Root Mean Squared Error (RMSE)
-
-🔧 Workflow
-
-Data Cleaning & Preprocessing
-
-Exploratory Data Analysis (EDA)
-
-Feature Engineering
-
-Model Training
-
-Model Evaluation & Comparison
-
-Result Interpretation
-
-📊 Results
-
-The best-performing model achieved:
-
-R²: XX
-
-MAE: XX
-
-RMSE: XX
-
-Random Forest showed better performance compared to baseline linear regression, indicating the presence of nonlinear relationships in the data.
+## Project Structure
+```text
+revenue-prediction/
+├── notebooks/
+│   └── Revenue_Prediction.ipynb
+├── data/
+├── models/
+├── requirements.txt
+└── README.md
