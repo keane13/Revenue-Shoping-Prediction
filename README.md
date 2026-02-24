@@ -17,7 +17,7 @@ uses machine learning models to improve prediction accuracy.
 ## Approach
 - Problem Type: Supervised Regression
 - Models:
-  - Linear Regression
+  - XGBoost
   - Random Forest Regressor
 - Evaluation Metrics:
   - R² Score
@@ -32,7 +32,7 @@ uses machine learning models to improve prediction accuracy.
 5. Model evaluation
 
 ## Results
-The Random Forest model achieved better performance than linear regression,
+The XGBoost model achieved better performance than linear regression,
 indicating nonlinear relationships in the data.
 
 | Metric | Value |
